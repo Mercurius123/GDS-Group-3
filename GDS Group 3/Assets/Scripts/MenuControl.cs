@@ -14,8 +14,9 @@ public class MenuControl : MonoBehaviour
     [SerializeField] GameObject loadMenu;
     [SerializeField] GameObject encycloMenu;
     [SerializeField] GameObject controlsMenu;
+    [SerializeField] GameObject UICamera;
     bool paused;
-
+    
      
     private void Update()
     {
@@ -36,9 +37,9 @@ public class MenuControl : MonoBehaviour
             else
             {
                 background.SetActive(true);
-                pauseMenu.SetActive(true);                
+                pauseMenu.SetActive(true);
                 PauseGame();
-            } 
+            }
         }
 
         if (Input.GetKeyUp(KeyCode.I))
