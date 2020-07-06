@@ -73,5 +73,9 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
+<<<<<<< HEAD
     - _Color: {r: 0.7290468, g: 0, b: 1, a: 1}
+=======
+    - _Color: {r: 0.29760563, g: 0, b: 0.3584906, a: 1}
+>>>>>>> Luke
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

@@ -1,0 +1,19 @@
+{
+    "name": "Opsive.UltimateCharacterController.AddOns.Swimming.Editor",
+    "references": [
+        "Opsive.UltimateCharacterController",
+        "Opsive.UltimateCharacterController.Editor",
+        "Opsive.UltimateCharacterController.AddOns.Swimming",
+        "Opsive.UltimateCharacterController.AddOns.Shared.Editor"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
