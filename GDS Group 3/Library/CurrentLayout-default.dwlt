@@ -111,10 +111,17 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
+<<<<<<< HEAD
   m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
   controlID: 120
+=======
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
+  vertical: 1
+  controlID: 822
+>>>>>>> Luke
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +143,17 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
+<<<<<<< HEAD
   m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 121
+=======
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
+  vertical: 0
+  controlID: 823
+>>>>>>> Luke
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +178,11 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 122
+=======
+  controlID: 824
+>>>>>>> Luke
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,7 +207,11 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 123
+=======
+  controlID: 825
+>>>>>>> Luke
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -347,10 +369,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -547
     m_HBaseRangeMax: 547
     m_VBaseRangeMin: -327.5
     m_VBaseRangeMax: 327.5
+=======
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -453.5
+    m_VBaseRangeMax: 453.5
+>>>>>>> Luke
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -367,17 +396,26 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
+<<<<<<< HEAD
       y: 0
       width: 1094
       height: 655
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 547, y: 327.5}
+=======
+      y: 21
+      width: 1920
+      height: 907
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 960, y: 453.5}
+>>>>>>> Luke
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -547
       y: -327.5
       width: 1094
@@ -385,6 +423,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1094, y: 655}
+=======
+      x: -960
+      y: -453.5
+      width: 1920
+      height: 907
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1920, y: 928}
+>>>>>>> Luke
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -419,9 +466,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 66fbffff
+=======
+      m_SelectedIDs: 585e0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 5cf2fffff8f6ffff72fbffff
+>>>>>>> Luke
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -533,9 +586,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.16076243, y: 0.5104972, z: -0.09781326, w: -0.83903545}
   m_Size:
+<<<<<<< HEAD
     m_Target: 123.85884
     speed: 2
     m_Value: 118.52521
+=======
+    m_Target: 66.88042
+    speed: 2
+    m_Value: 66.88042
+>>>>>>> Luke
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -748,21 +807,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets
   m_ViewMode: 1
   m_StartGridSize: 55
   m_LastFolders:
   - Assets
+=======
+    - Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo
+  m_ViewMode: 1
+  m_StartGridSize: 55
+  m_LastFolders:
+  - Assets/Opsive/UltimateCharacterController/Add-Ons/Swimming/Demo
+>>>>>>> Luke
   m_LastFoldersGridSize: 55
   m_LastProjectPath: C:\Users\marco\Desktop\University\Sae Work\GDS220\GDS220 GITKRAKEN\GDS-Group-3\GDS-Group-3\GDS
     Group 3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: 88730000
     m_LastClickedID: 29576
     m_ExpandedIDs: 000000008873000088780000a2780000a4780000aa78000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 42}
+    m_SelectedIDs: c4480000
+    m_LastClickedID: 18628
+    m_ExpandedIDs: 0000000054430000a0480000ba480000bc480000c248000000ca9a3b
+>>>>>>> Luke
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -790,7 +864,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000088730000
+=======
+    m_ExpandedIDs: 000000005443000000ca9a3b
+>>>>>>> Luke
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -817,7 +895,11 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+<<<<<<< HEAD
     m_HadKeyboardFocusLastEvent: 1
+=======
+    m_HadKeyboardFocusLastEvent: 0
+>>>>>>> Luke
     m_ExpandedInstanceIDs: c6230000cc4400003aaa00009067000000000000029400003e8a000064470000f6380000e8610000e8510000e4630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
