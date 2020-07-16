@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 61
+  controlID: 134
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 34
+  controlID: 62
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 35
+  controlID: 63
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,8 +185,8 @@ MonoBehaviour:
     y: 0
     width: 341
     height: 627
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -391,23 +391,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a2400000
-      m_LastClickedID: 16546
-      m_ExpandedIDs: 72fbffffbe3c0000
+      m_SelectedIDs: 4e460000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 169effff5aa1ffff60a4ffff66a7ffffcaabffff9eb5ffff3cbeffff4ec1ffff78c5ffff00c9ffff12ccffff24cfffff14d3ffffa8d6ffffccd9fffff0dcffff02e0ffff14e3ffffe8e7ffff7aecffff96f0ffff6cf1ffff8ef4ffffa2f7ffff6cfbffffa6e30000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: MOVEMENT tutorial
+        m_OriginalName: MOVEMENT tutorial
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 57642
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -453,9 +453,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 543.3909, y: 177.97672, z: 468.70087}
+    m_Target: {x: 474.66727, y: 295.16888, z: 90.709595}
     speed: 2
-    m_Value: {x: 543.3909, y: 177.97672, z: 468.70087}
+    m_Value: {x: 474.66727, y: 295.16888, z: 90.709595}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -501,13 +501,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.102700286, y: 0.017904, z: -0.0018489116, w: 0.9945503}
+    m_Target: {x: 0.14730273, y: -0.14190431, z: 0.021359324, w: 0.9786267}
     speed: 2
-    m_Value: {x: 0.10270021, y: 0.017903987, z: -0.0018489104, w: 0.9945496}
+    m_Value: {x: 0.14730263, y: -0.1419042, z: 0.02135931, w: 0.978626}
   m_Size:
-    m_Target: 1925.4734
+    m_Target: 825.8979
     speed: 2
-    m_Value: 1925.4734
+    m_Value: 825.8979
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -597,11 +597,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\marco\Desktop\University\Sae Work\GDS220\GDS220 GITKRAKEN\GDS-Group-3\GDS-Group-3\GDS
     Group 3
@@ -609,9 +609,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4c460000
-    m_LastClickedID: 17996
-    m_ExpandedIDs: 000000001a43000000ca9a3b
+    m_SelectedIDs: 1c430000
+    m_LastClickedID: 17180
+    m_ExpandedIDs: 000000001c4300004c46000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -639,7 +639,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001a430000
+    m_ExpandedIDs: 000000001c430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -666,7 +666,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
