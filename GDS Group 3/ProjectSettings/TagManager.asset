@@ -8,6 +8,13 @@ TagManager:
   - Pick Up
   - Character
   - Button
+  - LargeGarbage
+  - SmallGarbage
+  - InactiveFish
+  - ActiveFish
+  - Predator
+  - InactiveFlora
+  - ActiveFlora
   layers:
   - Default
   - TransparentFX
