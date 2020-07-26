@@ -343,9 +343,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 60626127}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 1857ed9f65e7de74fb1fd62404eb8521, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainMenu: {fileID: 340172206}
+  pauseMenu: {fileID: 0}
+  saveMenu: {fileID: 0}
+  loadMenu: {fileID: 1159782464}
+  characterMenu: {fileID: 0}
+  craftMenu: {fileID: 0}
+  encycloMenu: {fileID: 0}
+  controlsMenu: {fileID: 0}
+  creditsMenu: {fileID: 44836854}
+  background: {fileID: 0}
+  craftingBench: {fileID: 0}
+  menuActive: 0
+  sceneName: 
 --- !u!224 &292161105 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2157771768518094072, guid: 615403ad7fd045443a7311c4f2cc1e32,
@@ -1494,7 +1507,7 @@ PrefabInstance:
     - target: {fileID: 2157771768518094074, guid: 615403ad7fd045443a7311c4f2cc1e32,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Exit
+      value: ExitGame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 615403ad7fd045443a7311c4f2cc1e32, type: 3}
@@ -2015,5 +2028,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 60626132}
+    - target: {fileID: 2157771768518094074, guid: 615403ad7fd045443a7311c4f2cc1e32,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NewGame
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 615403ad7fd045443a7311c4f2cc1e32, type: 3}
