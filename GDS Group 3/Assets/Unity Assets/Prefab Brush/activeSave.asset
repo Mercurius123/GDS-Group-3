@@ -12,15 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21cb495ffbca0404d878640680165899, type: 3}
   m_Name: activeSave
   m_EditorClassIdentifier: 
-  prefabList: []
-  paintType: 0
-  brushSize: 1
+  prefabList:
+  - {fileID: 0}
+  - {fileID: 0}
+  paintType: 2
+  brushSize: 200
   minBrushSize: 0.1
-  maxBrushSize: 20
-  paintDeltaDistance: 0.4
+  maxBrushSize: 200
+  paintDeltaDistance: 1
   maxPaintDeltaDistance: 3
   minPaintDeltaDistance: 0.1
-  prefabsPerStroke: 1
+  prefabsPerStroke: 10
   maxprefabsPerStroke: 20
   minprefabsPerStroke: 1
   spawnHeight: 10
@@ -38,7 +40,7 @@ MonoBehaviour:
   draggingAction: 0
   rotationAxis: 0
   rotationSensitivity: 10
-  parentingStyle: 0
+  parentingStyle: 2
   parent: {fileID: 0}
   rotateToMatchSurface: 0
   rotateSurfaceDirection: 0
