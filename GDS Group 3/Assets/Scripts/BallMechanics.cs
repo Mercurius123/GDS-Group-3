@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BallMechanics : MonoBehaviour
 {
@@ -57,9 +58,10 @@ public class BallMechanics : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
-        if (count >= 24)
+        if (count >= 20)
         {
-            winText.text = "VICTORY!";
+            SceneManager.LoadScene("End");
+            Cursor.visible = true;
         }
 
     }
