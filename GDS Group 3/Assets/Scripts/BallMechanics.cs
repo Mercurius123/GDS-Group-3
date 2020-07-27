@@ -57,7 +57,7 @@ public class BallMechanics : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
-        if (count >= 7)
+        if (count >= 24)
         {
             winText.text = "VICTORY!";
         }
