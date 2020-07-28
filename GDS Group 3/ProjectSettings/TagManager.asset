@@ -16,6 +16,7 @@ TagManager:
   - InactiveFlora
   - ActiveFlora
   - Tutorials
+  - Oxygen
   layers:
   - Default
   - TransparentFX
