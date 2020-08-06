@@ -92,7 +92,7 @@ public class MenuControl : MonoBehaviour
 
     public void NewGame()
     {
-        SceneManager.LoadScene("MAIN");
+        SceneManager.LoadScene("LoadingScreen");
     }
 
     public void ActiveSwitch()
