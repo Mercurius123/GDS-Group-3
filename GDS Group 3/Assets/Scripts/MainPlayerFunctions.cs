@@ -16,7 +16,7 @@ public class MainPlayerFunctions : MonoBehaviour
     
 
 
-    public AudioSource tickSource;
+    
 
 
     
@@ -30,7 +30,7 @@ public class MainPlayerFunctions : MonoBehaviour
         SetCountText();
         winText.text = "";
 
-        tickSource = GetComponent<AudioSource>();
+        
     }
 
     
@@ -49,7 +49,7 @@ public class MainPlayerFunctions : MonoBehaviour
             count = count + 1;
             SetCountText();
 
-            tickSource.Play ();
+            
         }
 
       
