@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 324
+  controlID: 35
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 72
+  controlID: 36
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 73
+  controlID: 37
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,7 +275,7 @@ MonoBehaviour:
   - {fileID: 20}
   - {fileID: 21}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -394,8 +394,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6e480100
-      m_LastClickedID: 84078
+      m_SelectedIDs: 14660200
+      m_LastClickedID: 0
       m_ExpandedIDs: 46fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -456,9 +456,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -621.4071, y: -415.41165, z: 1226.1495}
+    m_Target: {x: -502.561, y: -522.28906, z: 1150.2181}
     speed: 2
-    m_Value: {x: -621.4071, y: -415.41165, z: 1226.1495}
+    m_Value: {x: -502.561, y: -522.28906, z: 1150.2181}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -504,13 +504,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.18113919, y: 0.80424637, z: -0.30607805, w: 0.47620186}
+    m_Target: {x: -0.0006967876, y: -0.8628157, z: 0.0013391627, w: -0.5056033}
     speed: 2
-    m_Value: {x: 0.18398584, y: 0.802365, z: -0.31088644, w: 0.47508866}
+    m_Value: {x: -0.000690724, y: -0.8650442, z: 0.0013422258, w: -0.50169355}
   m_Size:
-    m_Target: 97.17092
+    m_Target: 114.907684
     speed: 2
-    m_Value: 92.98653
+    m_Value: 109.9595
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -681,20 +681,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Resources/Rocks
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Resources/Rocks
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\arjun\Desktop\GDS-Group-3\GDS Group 3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 68390200
-    m_LastClickedID: 145768
-    m_ExpandedIDs: 00000000683902006a3902006c3902006e39020070390200723902007439020076390200783902007a39020000ca9a3b
+    scrollPos: {x: 0, y: 778}
+    m_SelectedIDs: 14660200
+    m_LastClickedID: 157204
+    m_ExpandedIDs: 00000000c85b0200ca5b0200cc5b0200ce5b0200d05b0200d25b0200d45b0200d65b0200d85b0200da5b020000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -722,7 +722,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000683902006a3902006c3902006e39020070390200723902007439020076390200783902007a390200
+    m_ExpandedIDs: 00000000c85b0200ca5b0200cc5b0200ce5b0200d05b0200d25b0200d45b0200d65b0200d85b0200da5b0200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -774,7 +774,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 4}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 186
