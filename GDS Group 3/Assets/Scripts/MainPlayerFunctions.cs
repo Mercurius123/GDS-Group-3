@@ -57,7 +57,7 @@ public class MainPlayerFunctions : MonoBehaviour
     }
     void SetCountText()
     {
-        countText.text = "Count: " + count.ToString();
+        countText.text = "Garbage Collected: " + count.ToString();
         if (count >= 20)
         {
             SceneManager.LoadScene("End");
