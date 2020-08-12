@@ -11,6 +11,7 @@ public class MainPlayerFunctions : MonoBehaviour
     public Text winText;
     private Rigidbody rb;
     private int count;
+    public Text Objective;
     
 
     
@@ -58,10 +59,9 @@ public class MainPlayerFunctions : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Garbage Collected: " + count.ToString();
-        if (count >= 20)
+        if (count >= 12)
         {
-            SceneManager.LoadScene("End");
-            Cursor.visible = true;
+            Objective.text = "Collect Garbage in the Coral Forests located in the direction your hub is facing.";
         }
 
     }
