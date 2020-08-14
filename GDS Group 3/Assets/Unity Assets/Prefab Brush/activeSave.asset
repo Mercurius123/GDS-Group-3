@@ -13,17 +13,19 @@ MonoBehaviour:
   m_Name: activeSave
   m_EditorClassIdentifier: 
   prefabList:
-  - {fileID: 7306505533616600277, guid: e88e006413330e24090727f1c40aa062, type: 3}
-  - {fileID: 7352842242585880804, guid: 947d19bf12b6dbd4981f33a8f80dfcb4, type: 3}
-  - {fileID: 1667993318007270, guid: 947d9e46a587d9443a4ba4e6f1d7fe14, type: 3}
+  - {fileID: 7330206020075369016, guid: 582fd8b4385638d42984b776cdc1d2fd, type: 3}
+  - {fileID: 1065021951618620, guid: 85c8845311a8cd74c95476a86b08dd3a, type: 3}
+  - {fileID: 3802057836670434782, guid: ab1a519a5f5e7344cadc3444b57ea7d1, type: 3}
+  - {fileID: 2834191796416312027, guid: 0cc739e7ceb34d04d80ced16ce831e13, type: 3}
+  - {fileID: 8998110262978051824, guid: d9677e0943d84e54491475b1b962f635, type: 3}
   paintType: 0
-  brushSize: 500
+  brushSize: 150
   minBrushSize: 0.1
   maxBrushSize: 500
   paintDeltaDistance: 0.4
   maxPaintDeltaDistance: 3
   minPaintDeltaDistance: 0.1
-  prefabsPerStroke: 40
+  prefabsPerStroke: 10
   maxprefabsPerStroke: 40
   minprefabsPerStroke: 1
   spawnHeight: 10
