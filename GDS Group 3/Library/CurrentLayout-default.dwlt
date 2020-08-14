@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 87
+  controlID: 77
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 92
+  controlID: 78
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 93
+  controlID: 79
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -396,9 +396,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7e7d0000
-      m_LastClickedID: 32126
-      m_ExpandedIDs: 44fbffff7c720000
+      m_SelectedIDs: 4ce60000
+      m_LastClickedID: 58956
+      m_ExpandedIDs: 44fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -451,16 +451,16 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: 6138f9241c820034096fbdbdb376c2d0
   m_Gizmos: 1
-  m_SceneIsLit: 0
+  m_SceneIsLit: 1
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 624.1474, y: -316.53836, z: 840.24817}
+    m_Target: {x: 339.3909, y: -134.05553, z: 1575.2701}
     speed: 2
-    m_Value: {x: 624.1474, y: -316.53836, z: 840.24817}
+    m_Value: {x: 339.3909, y: -134.05553, z: 1575.2701}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -506,20 +506,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.097235136, y: 0.7775684, z: 0.12419618, w: -0.6087205}
+    m_Target: {x: -0.005096753, y: -0.965038, z: 0.26148742, w: -0.01853206}
     speed: 2
-    m_Value: {x: 0.098334394, y: 0.7764548, z: 0.12521301, w: -0.6097294}
+    m_Value: {x: -0.009215993, y: -0.9630449, z: 0.26715896, w: -0.03294959}
   m_Size:
-    m_Target: 2.0830348
+    m_Target: 3.5830345
     speed: 2
-    m_Value: 1139.1617
+    m_Value: 15.7011175
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
     m_Speed: 2
-    m_SpeedNormalized: 0.99999994
+    m_SpeedNormalized: 1
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -700,20 +700,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Flora Prefabs
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources/Flora Prefabs
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\arjun\Desktop\GDS-Group-3\GDS Group 3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 90}
-    m_SelectedIDs: 068f0100
-    m_LastClickedID: 102150
-    m_ExpandedIDs: 00000000c8840100ca840100cc840100ce840100d0840100d2840100d4840100d6840100fc8e010000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: c8840100
+    m_LastClickedID: 99528
+    m_ExpandedIDs: 00000000c8840100ca840100cc840100ce840100d0840100d2840100d4840100d68401000a8f010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -768,7 +768,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000887e000084b20000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
