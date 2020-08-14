@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 77
+  controlID: 16
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 78
+  controlID: 17
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 79
+  controlID: 18
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -396,8 +396,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 4ce60000
-      m_LastClickedID: 58956
+      m_SelectedIDs: 5aa90000
+      m_LastClickedID: 43354
       m_ExpandedIDs: 44fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -458,9 +458,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 339.3909, y: -134.05553, z: 1575.2701}
+    m_Target: {x: 891.5557, y: -243.50688, z: -1559.5171}
     speed: 2
-    m_Value: {x: 339.3909, y: -134.05553, z: 1575.2701}
+    m_Value: {x: 891.5557, y: -243.50688, z: -1559.5171}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -506,13 +506,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.005096753, y: -0.965038, z: 0.26148742, w: -0.01853206}
+    m_Target: {x: 0.22430529, y: -0.44425565, z: 0.11605659, w: 0.85959834}
     speed: 2
-    m_Value: {x: -0.009215993, y: -0.9630449, z: 0.26715896, w: -0.03294959}
+    m_Value: {x: 0.2230096, y: -0.44441718, z: 0.11538688, w: 0.8599105}
   m_Size:
-    m_Target: 3.5830345
+    m_Target: 24.022774
     speed: 2
-    m_Value: 15.7011175
+    m_Value: 25.154737
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -700,20 +700,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Resources/Flora Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Resources/Flora Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\arjun\Desktop\GDS-Group-3\GDS Group 3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: c8840100
-    m_LastClickedID: 99528
-    m_ExpandedIDs: 00000000c8840100ca840100cc840100ce840100d0840100d2840100d4840100d68401000a8f010000ca9a3b
+    scrollPos: {x: 0, y: 90}
+    m_SelectedIDs: 7c890100
+    m_LastClickedID: 100732
+    m_ExpandedIDs: 000000003c7f01003e7f0100407f0100427f0100447f0100467f0100487f01004a7f01007289010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -741,7 +741,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c8840100ca840100cc840100ce840100d0840100d2840100d4840100d6840100
+    m_ExpandedIDs: 000000003c7f01003e7f0100407f0100427f0100447f0100467f0100487f01004a7f0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -793,7 +793,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 104}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 186
