@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuControl : MonoBehaviour
 {
-    [SerializeField] GameObject mainMenu, pauseMenu, saveMenu, loadMenu, characterMenu, craftMenu, encycloMenu, controlsMenu, creditsMenu, background, craftingBench;
+    [SerializeField] GameObject mainMenu, pauseMenu, saveMenu, loadMenu, characterMenu, craftMenu, encycloMenu, controlsMenu, creditsMenu, background, craftingBench, bars, countText, objective;
     public bool menuActive = false;
     public string sceneName;
     
@@ -26,6 +26,9 @@ public class MenuControl : MonoBehaviour
             {
                 pauseMenu.SetActive(true);
                 background.SetActive(true);
+                bars.SetActive(false);
+                countText.SetActive(false);
+                objective.SetActive(false);
                 menuActive = true;
                 PauseGame();
             }
@@ -39,6 +42,9 @@ public class MenuControl : MonoBehaviour
                 encycloMenu.SetActive(false);
                 controlsMenu.SetActive(false);
                 background.SetActive(false);
+                bars.SetActive(true);
+                countText.SetActive(true);
+                objective.SetActive(true);
                 menuActive = false;
                 ResumeGame();
             }
@@ -63,6 +69,7 @@ public class MenuControl : MonoBehaviour
             characterMenu.SetActive(true);
             background.SetActive(true);
             menuActive = true;
+          
             PauseGame();
         }
 
@@ -71,6 +78,7 @@ public class MenuControl : MonoBehaviour
             craftMenu.SetActive(true);
             background.SetActive(true);
             menuActive = true;
+            
             PauseGame();
         }
     }
@@ -78,6 +86,9 @@ public class MenuControl : MonoBehaviour
     public void ResumeGame()
     {
         Time.timeScale = 1;
+        bars.SetActive(true);
+        countText.SetActive(true);
+        objective.SetActive(true);
     }
 
     public void PauseGame()

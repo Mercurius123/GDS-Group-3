@@ -13,11 +13,8 @@ MonoBehaviour:
   m_Name: activeSave
   m_EditorClassIdentifier: 
   prefabList:
-  - {fileID: 1852743742538856, guid: d3077983e38ca50409c1de688243682a, type: 3}
-  - {fileID: 1376602650592626, guid: 26a1ad0c1cd5cd940b741103f87e20c3, type: 3}
-  - {fileID: 8752086275462475582, guid: dbd101fa26375b146ad734b2f3f41805, type: 3}
-  - {fileID: 2004868373863526083, guid: a7c0fab72a306934383b6e21fbcf57ea, type: 3}
-  - {fileID: 6958251103928451642, guid: 22ff5977d3aa4514696101c6fc2c55d0, type: 3}
+  - {fileID: 6515302485961598415, guid: cbcfde1c0f766294aaafa41187637661, type: 3}
+  - {fileID: 1749024933159150, guid: 6854c18fb2e0d1b4a9e5fdc85d04b4de, type: 3}
   paintType: 0
   brushSize: 400
   minBrushSize: 0.1

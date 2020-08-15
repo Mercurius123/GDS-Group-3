@@ -11,7 +11,7 @@ public class MainPlayerFunctions : MonoBehaviour
     public Text countText;
     public Text winText;
     private Rigidbody rb;
-    private int count;
+    public int count;
     public Text Objective;
     
 
