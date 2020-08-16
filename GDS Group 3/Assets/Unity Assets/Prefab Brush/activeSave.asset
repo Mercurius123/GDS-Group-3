@@ -16,13 +16,13 @@ MonoBehaviour:
   - {fileID: 6515302485961598415, guid: cbcfde1c0f766294aaafa41187637661, type: 3}
   - {fileID: 1749024933159150, guid: 6854c18fb2e0d1b4a9e5fdc85d04b4de, type: 3}
   paintType: 0
-  brushSize: 400
+  brushSize: 500
   minBrushSize: 0.1
   maxBrushSize: 500
   paintDeltaDistance: 0.4
   maxPaintDeltaDistance: 3
   minPaintDeltaDistance: 0.1
-  prefabsPerStroke: 20
+  prefabsPerStroke: 10
   maxprefabsPerStroke: 40
   minprefabsPerStroke: 1
   spawnHeight: 10
