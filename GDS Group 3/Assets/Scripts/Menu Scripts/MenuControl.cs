@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class MenuControl : MonoBehaviour
 {
     [SerializeField] GameObject mainMenu, pauseMenu, saveMenu, loadMenu, characterMenu, craftMenu, encycloMenu, controlsMenu, creditsMenu, background, craftingBench, bars, countText, objective, level;
-    public bool menuActive = false;
+    public bool menuActive = false, craftMenuActive = false;
     public string sceneName;
     
     // Start is called before the first frame update
@@ -75,11 +75,12 @@ public class MenuControl : MonoBehaviour
             PauseGame();
         }
 
-        if (Input.GetKeyUp("k") && menuActive == false)
+        if (craftMenuActive == true && menuActive == false)
         {
             craftMenu.SetActive(true);
             background.SetActive(true);
             menuActive = true;
+            craftMenuActive = false;
             
             PauseGame();
         }
