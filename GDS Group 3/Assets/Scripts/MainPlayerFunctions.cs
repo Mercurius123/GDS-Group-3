@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 public class MainPlayerFunctions : MonoBehaviour
 {
@@ -13,29 +12,21 @@ public class MainPlayerFunctions : MonoBehaviour
     private Rigidbody rb;
     public int count;
     public Text Objective;
-    
-
-    
-
-
-    
-
-
-    
+    public int level;
+   
     void Start()
     {
         
 
         rb = GetComponent<Rigidbody>();
         count = 0;
-
+        level = 1;
         SetCountText();
         winText.text = "";
 
         
     }
 
-    
     void Update()
     {
         
@@ -60,10 +51,50 @@ public class MainPlayerFunctions : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Garbage Collected: " + count.ToString();
-        if (count >= 12)
+        if (count >= 10)
         {
-            Objective.text = "Collect Garbage in the Coral Forests located in the direction your hub is facing.";
+            level = level + 1;
+            Objective.text = level.ToString();
         }
-
+        if (count >= 25)
+        {
+            level = level + 1;
+            Objective.text = level.ToString();
+        }
+        if (count >= 40)
+        {
+            level = level + 1;
+            Objective.text = level.ToString();
+        }
+        if (count >= 60)
+        {
+            level = level + 1;
+            Objective.text = level.ToString();
+        }
+        if (count >= 80)
+        {
+            level = level + 1;
+            Objective.text = level.ToString();
+        }
+        if (count >= 100)
+        {
+            level = level + 1;
+            Objective.text = level.ToString();
+        }
+        if (count >= 130)
+        {
+            level = level + 1;
+            Objective.text = level.ToString();
+        }
+        if (count >= 160)
+        {
+            level = level + 1;
+            Objective.text = level.ToString();
+        }
+        if (count >= 200)
+        {
+            level = level + 1;
+            Objective.text = level.ToString();
+        }
     }
 }

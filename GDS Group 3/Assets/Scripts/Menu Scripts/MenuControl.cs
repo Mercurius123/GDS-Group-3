@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuControl : MonoBehaviour
 {
-    [SerializeField] GameObject mainMenu, pauseMenu, saveMenu, loadMenu, characterMenu, craftMenu, encycloMenu, controlsMenu, creditsMenu, background, craftingBench, bars, countText, objective;
+    [SerializeField] GameObject mainMenu, pauseMenu, saveMenu, loadMenu, characterMenu, craftMenu, encycloMenu, controlsMenu, creditsMenu, background, craftingBench, bars, countText, objective, level;
     public bool menuActive = false;
     public string sceneName;
     
@@ -29,6 +29,7 @@ public class MenuControl : MonoBehaviour
                 bars.SetActive(false);
                 countText.SetActive(false);
                 objective.SetActive(false);
+                level.SetActive(false);
                 menuActive = true;
                 PauseGame();
             }
@@ -45,6 +46,7 @@ public class MenuControl : MonoBehaviour
                 bars.SetActive(true);
                 countText.SetActive(true);
                 objective.SetActive(true);
+                level.SetActive(true);
                 menuActive = false;
                 ResumeGame();
             }
@@ -95,6 +97,7 @@ public class MenuControl : MonoBehaviour
         bars.SetActive(true);
         countText.SetActive(true);
         objective.SetActive(true);
+        level.SetActive(true);
     }
 
     public void PauseGame()
