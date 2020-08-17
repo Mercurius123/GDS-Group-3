@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
-    // Start is called before the first frame update
+
     public void RestartGame ()
     {
         SceneManager.LoadScene("MAIN");
@@ -14,4 +14,12 @@ public class GameOver : MonoBehaviour
     {
         Application.Quit();
     }
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
+
 }
