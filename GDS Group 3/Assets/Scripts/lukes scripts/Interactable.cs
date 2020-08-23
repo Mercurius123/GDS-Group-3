@@ -8,6 +8,7 @@ public class Interactable : MonoBehaviour
 {
     public GameObject menuObject;
     public GameObject collision;
+    public GameObject craftingBench;
     public Transform Player;
     public Text GUIText;
     public Text GUITextChange;
@@ -54,11 +55,19 @@ public class Interactable : MonoBehaviour
         {
             if (col.gameObject.name == "Garbage Storage")
             {
-                GUIText.text = ("Press F to Deposit Garbage");
-                GUIText.gameObject.SetActive(true);
-                if (Input.GetKeyDown(KeyCode.F))
+                if (carriedGarbageCount > 0)
                 {
-                    GarbageStorageUI();
+                    GUIText.text = ("Press F to Deposit Garbage");
+                    GUIText.gameObject.SetActive(true);
+                    if (Input.GetKeyDown(KeyCode.F))
+                    {
+                        GarbageStorageUI();
+                    }
+                }
+                else if (TPGunEquipped == true)
+                {
+                    GUIText.text = "";
+                    GUIText.gameObject.SetActive(false);
                 }
             }
             else if (col.gameObject.name == "CraftingBench")
@@ -74,18 +83,26 @@ public class Interactable : MonoBehaviour
             {
                 GUIText.text = ("Press F to Collect");
                 GUIText.gameObject.SetActive(true);
-                if (Input.GetKeyDown(KeyCode.F))
+                if (Input.GetKeyDown(KeyCode.F) && TPGunEquipped == false)
                 {
                     LargeGarbageUI();
+                }
+                else if (Input.GetKeyDown(KeyCode.F) && TPGunEquipped == true)
+                {
+                    TeleportLargeGarbage();
                 }
             }
             else if (col.gameObject.tag == "SmallGarbage")
             {
                 GUIText.text = ("Press F to Collect");
                 GUIText.gameObject.SetActive(true);
-                if (Input.GetKeyDown(KeyCode.F))
+                if (Input.GetKeyDown(KeyCode.F) && TPGunEquipped == false)
                 {
                     SmallGarbageUI();
+                }
+                else if (Input.GetKeyDown(KeyCode.F) && TPGunEquipped == true)
+                {
+                    TeleportSmallGarbage();
                 }
             }
         }
@@ -103,7 +120,22 @@ public class Interactable : MonoBehaviour
         GUITextChange.gameObject.SetActive(false);
         interactionHappened = false;
     }
-        
+      
+    public void TeleportLargeGarbage()
+    {
+        //play particles here
+        Matter = Matter + largeGarbageValue;
+        MatterCountText.text = ("Matter Count: " + Matter);
+        Destroy(collision);
+    }
+
+    public void TeleportSmallGarbage()
+    {
+        //play particles here
+        Matter = Matter + smallGarbageValue;
+        MatterCountText.text = ("Matter Count: " + Matter);
+        Destroy(collision);
+    }
     public void GarbageStorageUI()
     {
         if (carriedGarbageCount == 0)
