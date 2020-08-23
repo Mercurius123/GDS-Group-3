@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 14307
+  controlID: 1220
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 14261
+  controlID: 1221
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 14229
+  controlID: 1165
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,24 +218,24 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
+      scrollPos: {x: 0, y: 300}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8caaf6ff0abff6ff5212f9ffbc12f9ffc812f9ff9613f9ffb213f9ff7462fbffa6acfdff16f9ffff9cc004002aab0a00
+      m_ExpandedIDs: 44fbffff127c0000d8ff0000e8190100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: SPRINT
-        m_OriginalName: SPRINT
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 986618
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -305,14 +305,14 @@ MonoBehaviour:
   m_Gizmos: 1
   m_SceneIsLit: 0
   m_SceneLighting: 1
-  m_2DMode: 0
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 567.7695, y: 257.42938, z: 24.204346}
+    m_Target: {x: 320, y: 240, z: 0}
     speed: 2
-    m_Value: {x: 567.7695, y: 257.42938, z: 24.204346}
+    m_Value: {x: 320, y: 240, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -340,7 +340,7 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
@@ -348,7 +348,7 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
@@ -358,17 +358,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.111362845, y: 0.008957943, z: -0.0010129861, w: 0.99374956}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0.111361675, y: 0.008957849, z: -0.0010129755, w: 0.9937391}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 829.2533
+    m_Target: 364.5734
     speed: 2
-    m_Value: 829.2533
+    m_Value: 364.5734
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1.8
     m_SpeedNormalized: 0.9100001
@@ -382,7 +382,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 0
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.17479041, y: 0.593201, z: -0.13391253, w: -0.77436346}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -515,8 +515,8 @@ MonoBehaviour:
     y: 676
     width: 1451
     height: 271
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -564,21 +564,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\marco\Desktop\University\Sae Work\GDS220\GDS220 GITKRAKEN\GDS-Group-3\GDS-Group-3\GDS
-    Group 3
+  m_LastProjectPath: C:\Users\Luke\Desktop\Uniwork\GDS-Group-3\GDS Group 3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 1418}
-    m_SelectedIDs: 7ace0100
-    m_LastClickedID: 118394
-    m_ExpandedIDs: 00000000e4c40100e6c40100e8c40100eac40100ecc40100eec40100f0c40100f2c40100f4c40100f6c40100f8c40100fac40100fcc40100fec4010000c5010002c5010000ca9a3b
+    scrollPos: {x: 0, y: 1519}
+    m_SelectedIDs: d0c20100
+    m_LastClickedID: 115408
+    m_ExpandedIDs: 00000000bcc20100bec20100c0c20100c2c20100c4c20100c6c20100c8c20100cac20100ccc20100cec20100d0c20100d2c20100d4c20100d6c20100d8c20100dac2010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -606,7 +605,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e4c40100e6c40100e8c40100eac40100ecc40100eec40100f0c40100f2c40100f4c40100f6c40100f8c40100fac40100fcc40100fec4010000c5010002c5010000ca9a3b
+    m_ExpandedIDs: 00000000bcc20100bec20100c0c20100c2c20100c4c20100c6c20100c8c20100cac20100ccc20100cec20100d0c20100d2c20100d4c20100d6c20100d8c20100dac2010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -631,8 +630,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 689e0e00
-    m_LastClickedInstanceID: 958056
+    m_SelectedInstanceIDs: 22affdff
+    m_LastClickedInstanceID: -151774
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000887e000084b20000
     m_RenameOverlay:
@@ -716,7 +715,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 936408
+  m_LastSelectedObjectID: -151774
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -822,7 +821,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 958056
+  m_LastInspectedObjectInstanceID: -151774
   m_LastVerticalScrollValue: 0
 --- !u!114 &18
 MonoBehaviour:
