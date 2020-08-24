@@ -81,7 +81,11 @@ public class MenuControl : MonoBehaviour
             background.SetActive(true);
             menuActive = true;
             craftMenuActive = false;
-            
+            bars.SetActive(false);
+            countText.SetActive(false);
+            objective.SetActive(false);
+            level.SetActive(false);
+
             PauseGame();
         }
 

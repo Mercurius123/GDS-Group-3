@@ -23,12 +23,15 @@ public class Interactable : MonoBehaviour
     public bool interactionHappened = false;
     public float GUITimer = 3;
     public float maxTimer = 3;
+    public int count;
+    public Text countText;
          
     
     void Start()
     {
        Rigidbody rb = GetComponent<Rigidbody>();
        rb.isKinematic = false;
+        count = 0;
     }
 
     void Update()
@@ -90,6 +93,8 @@ public class Interactable : MonoBehaviour
                 else if (Input.GetKeyDown(KeyCode.F) && TPGunEquipped == true)
                 {
                     TeleportLargeGarbage();
+                    count = count + 1;
+                    countText.text = "Garbage Collected: " + count.ToString();
                 }
             }
             else if (col.gameObject.tag == "SmallGarbage")
@@ -99,10 +104,14 @@ public class Interactable : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.F) && TPGunEquipped == false)
                 {
                     SmallGarbageUI();
+                    count = count + 1;
+                    countText.text = "Garbage Collected: " + count.ToString();
                 }
                 else if (Input.GetKeyDown(KeyCode.F) && TPGunEquipped == true)
                 {
                     TeleportSmallGarbage();
+                    count = count + 1;
+                    countText.text = "Garbage Collected: " + count.ToString();
                 }
             }
         }
