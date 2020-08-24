@@ -36,7 +36,7 @@ public class MainPlayerFunctions : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Pick Up"))
+        if (other.gameObject.CompareTag("SmallGarbage"))
         {
             other.gameObject.SetActive(false);
             count = count + 1;
