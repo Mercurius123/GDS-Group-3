@@ -22,7 +22,7 @@ public class MenuControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (menuActive == true)
+        if (menuActive == true || sceneName == "StartScene")
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
