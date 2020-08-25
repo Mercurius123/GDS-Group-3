@@ -172,16 +172,9 @@ public class Interactable : MonoBehaviour
 
     public void LargeGarbageUI()
     {
-        if (TPGunEquipped == false)
-        {
-            GUITextChange.text = ("This is too Heavy to carry.");
-            GUITimer = maxTimer;
-            interactionHappened = true;
-        }
-        else
-        {
-            Debug.Log("Teleported");
-        }
+       GUITextChange.text = ("This is too Heavy to carry.");
+       GUITimer = maxTimer;
+       interactionHappened = true;
     }
 
     public void SmallGarbageUI()

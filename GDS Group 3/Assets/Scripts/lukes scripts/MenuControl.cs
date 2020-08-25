@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Opsive.Shared.Events;
+using Opsive.UltimateCharacterController.Input;
 
 public class MenuControl : MonoBehaviour
 {
-    [SerializeField] GameObject mainMenu, pauseMenu, saveMenu, loadMenu, characterMenu, craftMenu, encycloMenu, controlsMenu, creditsMenu, background, craftingBench, bars, countText, objective, level;
+    [SerializeField] GameObject mainMenu, pauseMenu, saveMenu, loadMenu, characterMenu, craftMenu, encycloMenu, controlsMenu, creditsMenu, background, bars, countText, objective, level;
     public bool menuActive = false, craftMenuActive = false;
     public string sceneName;
     
@@ -20,6 +22,16 @@ public class MenuControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (menuActive == true)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
         if (Input.GetKeyUp("escape") && sceneName == "MAIN")
         {
             if(menuActive == false)
@@ -29,9 +41,9 @@ public class MenuControl : MonoBehaviour
                 bars.SetActive(false);
                 countText.SetActive(false);
                 objective.SetActive(false);
-                level.SetActive(false);
-                menuActive = true;
+                level.SetActive(false);                
                 PauseGame();
+                menuActive = true;
             }
             else
             {
@@ -88,12 +100,6 @@ public class MenuControl : MonoBehaviour
 
             PauseGame();
         }
-
-        
-
-
-
-
     }
 
     public void ResumeGame()
@@ -122,7 +128,7 @@ public class MenuControl : MonoBehaviour
 
     public void ActiveSwitch()
     {
-        menuActive = !menuActive;
+        menuActive = !menuActive;        
     }
 
     public void ExitGame()
