@@ -19,6 +19,7 @@ public class Crafting : MonoBehaviour
     public int healthPackMin = 0;
     public Text healthPackText;
     public int healAmount = 400;
+    public Text inventoryText;
     public Text TPGunCostText;
     public GameObject gunButton;
     public Text oxyTankCostText;
@@ -72,8 +73,6 @@ public class Crafting : MonoBehaviour
                 oxyTankCostText.gameObject.SetActive(false);
                 craftingNotifications.text = "You Crafted the Double Oxygen Tank!";
                 craftingNote = true;
-                //also change the inventory stuff
-
             }
             else
             {
@@ -96,8 +95,6 @@ public class Crafting : MonoBehaviour
                 oxyTankCostText.text = "Cost: " + oxyTankCost;                
                 craftingNotifications.text = "You Crafted An Oxygen Tank!";
                 craftingNote = true;                
-                //also change the inventory stuff
-                
             }
             else
             {
@@ -142,7 +139,7 @@ public class Crafting : MonoBehaviour
     {
         if (healthPackCurrent == 0)
         {
-            //put in the inventory message here
+            
         }
         else
         {
@@ -175,8 +172,7 @@ public class Crafting : MonoBehaviour
             craftingNotifications.text = "You Crafted the Matter Teleporter!";
             craftingNote = true;
             TPGun.SetActive(true);
-            //change the inventory stuff(maybe have the sprite go from greyscale to colour?)
-            //look into an easy particle prefab for a blue energy crackle            
+            Interactable.GetComponent<Interactable>().TPGunEquipped = true;
         }
         else
         {

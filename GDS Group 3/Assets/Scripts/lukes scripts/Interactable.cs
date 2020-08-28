@@ -132,7 +132,6 @@ public class Interactable : MonoBehaviour
       
     public void TeleportLargeGarbage()
     {
-        //play particles here
         Matter = Matter + largeGarbageValue;
         MatterCountText.text = ("Matter Count: " + Matter);
         Destroy(collision);
@@ -140,7 +139,6 @@ public class Interactable : MonoBehaviour
 
     public void TeleportSmallGarbage()
     {
-        //play particles here
         Matter = Matter + smallGarbageValue;
         MatterCountText.text = ("Matter Count: " + Matter);
         Destroy(collision);
