@@ -31,7 +31,7 @@ public class CutsceneManager : MonoBehaviour
         subText.SetActive(true);
         textPanel.SetActive(true);
         tutorial.SetActive(false);
-        subText.GetComponent<Text>().text = "Greetings Employee, Welcome to your new job at GACC. You have been tasked with cleaning the dying waters off New Zealand's coast.";
+        subText.GetComponent<Text>().text = "Greetings Employee, Welcome to your new job at GACC in 2030. You have been tasked with cleaning the dying waters off New Zealand's coast.";
         yield return new WaitForSeconds(5);
         Cam2.SetActive(true);
         Cam1.SetActive(false);

@@ -63,6 +63,7 @@ public class PlayerOverlord : MonoBehaviour
         if (PlayerStaminaF == 0)
         {
             //movespeed = 5f;
+            isRunning = false;
         }
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
