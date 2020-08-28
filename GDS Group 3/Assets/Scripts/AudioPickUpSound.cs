@@ -6,7 +6,8 @@ public class AudioPickUpSound : MonoBehaviour
 {
     public AudioSource playSound;
 
-    void OnTriggerEnter(Collider other)
+    
+    public void OnCollisionStay(Collision col)
     {
         playSound.Play();
     }
