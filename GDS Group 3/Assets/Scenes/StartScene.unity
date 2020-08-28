@@ -223,6 +223,8 @@ RectTransform:
   m_Children:
   - {fileID: 490481759}
   - {fileID: 1594141089}
+  - {fileID: 214443725}
+  - {fileID: 1286461535}
   m_Father: {fileID: 60626131}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -356,9 +358,139 @@ MonoBehaviour:
   controlsMenu: {fileID: 0}
   creditsMenu: {fileID: 44836854}
   background: {fileID: 0}
-  craftingBench: {fileID: 0}
+  bars: {fileID: 0}
+  countText: {fileID: 0}
+  objective: {fileID: 0}
+  level: {fileID: 0}
   menuActive: 0
+  craftMenuActive: 0
   sceneName: 
+--- !u!1 &214443724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 214443725}
+  - component: {fileID: 214443727}
+  - component: {fileID: 214443726}
+  m_Layer: 5
+  m_Name: TextCredits1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &214443725
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214443724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 44836855}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -200, y: -0.000000097178}
+  m_SizeDelta: {x: 386.1, y: 778.7}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &214443726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214443724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 2197aee06fdc5c842ac70475571dd99e, type: 3}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Project Manager - Arjun Mitra
+
+    Scrum Master - Mercurius Awad
+
+    Build
+    Manager - Luke Van Lierop
+
+    Sound Designer - Jack Espinosa
+
+    Programmer
+    - Cooper Braun
+
+
+    Scripting
+
+    Luke Van Lierop
+
+    Mercurius Awad
+
+    Arjun
+    Mitra
+
+    Cooper Braun
+
+    Jack Espinosa
+
+
+    Modelling
+
+    Luke Van Lierop
+
+    Jack
+    Espinosa
+
+
+    Audio
+
+    Jack Espinosa
+
+    Luke Van Lierop
+
+    Mercurius Awad
+
+
+    Level
+    Design
+
+    Arjun Mitra
+
+    William Jarmen'
+--- !u!222 &214443727
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214443724}
+  m_CullTransparentMesh: 0
 --- !u!224 &292161105 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2157771768518094072, guid: 615403ad7fd045443a7311c4f2cc1e32,
@@ -578,12 +710,12 @@ PrefabInstance:
     - target: {fileID: 2157771768518094072, guid: 615403ad7fd045443a7311c4f2cc1e32,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.572876
+      value: 0.5000305
       objectReference: {fileID: 0}
     - target: {fileID: 2157771768518094072, guid: 615403ad7fd045443a7311c4f2cc1e32,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.1000061
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 2157771768518094072, guid: 615403ad7fd045443a7311c4f2cc1e32,
         type: 3}
@@ -946,6 +1078,133 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1286461534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1286461535}
+  - component: {fileID: 1286461537}
+  - component: {fileID: 1286461536}
+  m_Layer: 5
+  m_Name: TextCredits2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1286461535
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286461534}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 44836855}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 200, y: -0.000000097178}
+  m_SizeDelta: {x: 386.1, y: 778.7}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1286461536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286461534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 2197aee06fdc5c842ac70475571dd99e, type: 3}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Writing/Documentation
+
+    Arjun Mitra
+
+    Mercurius Awad
+
+    Luke Van
+    Lierop
+
+    Cooper Braun
+
+    Jack Espinosa
+
+
+    UI
+
+    Luke Van Lierop
+
+    Cooper
+    Braun
+
+    Jack Espinosa
+
+    Arjun Mitra
+
+    Mercurius Awad
+
+
+    AI
+
+    Mercurius
+    Awad
+
+    Cooper Braun
+
+
+    VFX
+
+    Jack Espinosa
+
+    Mercurius Awad
+
+
+    Special
+    Thanks To
+
+    Aaron Goss
+
+    Alan Murray
+
+    Adam Ho'
+--- !u!222 &1286461537
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286461534}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1594141088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1047,7 +1306,7 @@ PrefabInstance:
     - target: {fileID: 2157771768518094072, guid: 615403ad7fd045443a7311c4f2cc1e32,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.309967
+      value: 1.3099365
       objectReference: {fileID: 0}
     - target: {fileID: 2157771768518094072, guid: 615403ad7fd045443a7311c4f2cc1e32,
         type: 3}
@@ -1854,6 +2113,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button - Load Game
       objectReference: {fileID: 0}
+    - target: {fileID: 2157771768518094055, guid: 615403ad7fd045443a7311c4f2cc1e32,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2157771768518094072, guid: 615403ad7fd045443a7311c4f2cc1e32,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2039,6 +2303,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 2197aee06fdc5c842ac70475571dd99e,
         type: 3}
+    - target: {fileID: 2157771768382803984, guid: 615403ad7fd045443a7311c4f2cc1e32,
+        type: 3}
+      propertyPath: m_Text
+      value: Start Game
+      objectReference: {fileID: 0}
     - target: {fileID: 2157771768518094055, guid: 615403ad7fd045443a7311c4f2cc1e32,
         type: 3}
       propertyPath: m_Name
