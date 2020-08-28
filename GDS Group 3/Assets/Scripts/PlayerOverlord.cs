@@ -92,6 +92,11 @@ public class PlayerOverlord : MonoBehaviour
         PlayerStaminaBar.fillAmount = PlayerStaminaF / 100;
         PlayerOxygenBar.fillAmount = (float)PlayerOxygenF / 100;
         UpgradeSystem();
+
+        if (PlayerHealth < 0)
+        {
+            SceneManager.LoadScene("End");
+        }
     }
 
     private void OnTriggerEnter(Collider target)
