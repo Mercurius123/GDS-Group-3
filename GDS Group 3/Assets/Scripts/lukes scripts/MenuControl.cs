@@ -8,7 +8,7 @@ using Opsive.UltimateCharacterController.Input;
 
 public class MenuControl : MonoBehaviour
 {
-    [SerializeField] GameObject mainMenu, pauseMenu, saveMenu, loadMenu, characterMenu, craftMenu, encycloMenu, controlsMenu, creditsMenu, background, bars, countText, objective, level;
+    [SerializeField] GameObject mainMenu, pauseMenu, characterMenu, craftMenu, encycloMenu, controlsMenu, creditsMenu, background, bars, countText, objective;
     public bool menuActive = false, craftMenuActive = false;
     public string sceneName;
     
@@ -41,15 +41,13 @@ public class MenuControl : MonoBehaviour
                 bars.SetActive(false);
                 countText.SetActive(false);
                 objective.SetActive(false);
-                level.SetActive(false);                
+                menuActive = true;               
                 PauseGame();
-                menuActive = true;
+                
             }
             else
             {
                 pauseMenu.SetActive(false);
-                saveMenu.SetActive(false);
-                loadMenu.SetActive(false);
                 characterMenu.SetActive(false);
                 craftMenu.SetActive(false);
                 encycloMenu.SetActive(false);
@@ -58,7 +56,6 @@ public class MenuControl : MonoBehaviour
                 bars.SetActive(true);
                 countText.SetActive(true);
                 objective.SetActive(true);
-                level.SetActive(true);
                 menuActive = false;
                 ResumeGame();
             }
@@ -72,7 +69,6 @@ public class MenuControl : MonoBehaviour
             }
             else
             {
-                loadMenu.SetActive(false);
                 creditsMenu.SetActive(false);
                 mainMenu.SetActive(true);
             }
@@ -96,7 +92,6 @@ public class MenuControl : MonoBehaviour
             bars.SetActive(false);
             countText.SetActive(false);
             objective.SetActive(false);
-            level.SetActive(false);
 
             PauseGame();
         }
@@ -108,7 +103,6 @@ public class MenuControl : MonoBehaviour
         bars.SetActive(true);
         countText.SetActive(true);
         objective.SetActive(true);
-        level.SetActive(true);
     }
 
     public void PauseGame()
